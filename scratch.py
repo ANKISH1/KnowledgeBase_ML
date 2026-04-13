@@ -51,4 +51,22 @@ for epoch in range(epochs):
 # Make a prediction on new data
 hours_studied = 9
 predicted_marks = w * hours_studied + b
-print(f"\nIf you study {hours_studied} hours → predicted marks: {predicted_marks:.1f}")        
+print(f"\nIf you study {hours_studied} hours → predicted marks: {predicted_marks:.1f}") 
+
+
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(6,4))  # FIRST
+
+plt.scatter(hours, marks, label="Actual Data")
+predicted = [w*h + b for h in hours]
+plt.plot(hours, predicted, color = 'red', label="Model Prediction")
+
+plt.xlabel("Hours Studied")
+plt.ylabel("Marks")
+plt.title("Linear Regression Fit")
+plt.legend()
+plt.grid(True)
+
+plt.savefig("linear_regression.png")  # clean image for LinkedIn
+plt.show()
