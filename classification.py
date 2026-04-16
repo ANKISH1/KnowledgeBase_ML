@@ -61,3 +61,21 @@ for t in test:
     prob = sigmoid(linear)
     label = 1 if prob>0.5 else 0
     print(f"Activity: {t} → Probability: {prob:.2f} → {'Spam' if label == 1 else 'Not Spam'}")
+
+
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(6,4))
+
+plt.scatter(activity, labels, label="Actual Data")
+predicted =[sigmoid(w*a + b) for a in activity]
+plt.plot(activity, predicted, label="Model Prediction")
+
+plt.xlabel("Suspicious Activity")
+plt.ylabel("Probability Of Spam")
+plt.title("Logistic Regression (Sigmoid Curve)")
+plt.legend()
+plt.grid(True)
+
+plt.savefig("logistic_regression.png")
+plt.show()
