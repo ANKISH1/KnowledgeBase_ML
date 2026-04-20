@@ -1,0 +1,29 @@
+Machine Learning is a field of Machine Learning where models learn patterns from data instead of being explicitly programmed. 
+It is mainly divided into three types: supervised learning, unsupervised learning, and reinforcement learning. 
+In supervised learning, the model is trained on labeled data and is commonly used for regression (predicting continuous values) and classification (predicting categories). 
+Unsupervised learning works without labels and focuses on finding hidden patterns, such as clustering (like K-Means) or dimensionality reduction (like PCA). 
+Reinforcement learning, on the other hand, involves learning through rewards and penalties.
+
+Some commonly used algorithms include linear regression, logistic regression, decision trees, random forests, support vector machines (SVM), and K-nearest neighbors (KNN). 
+Important concepts in ML include overfitting (when a model memorizes training data and performs poorly on new data), underfitting (when the model is too simple), and the bias-variance tradeoff. 
+Models are typically evaluated using metrics such as accuracy, precision, recall, F1 score, and confusion matrix. 
+A standard ML workflow involves data collection, preprocessing, model training, evaluation, and hyperparameter tuning. Real-world examples include spam detection (classification) and stock price prediction (regression).
+
+
+
+Valorant is a 5v5 tactical first-person shooter developed by Riot Games. 
+The game combines precise gunplay with unique agent abilities, making both strategy and mechanics equally important. 
+Players choose agents categorized into four roles: duelists (entry fraggers like Jett and Reyna), controllers (smoke providers like Brimstone and Omen), initiators (information gatherers like Sova and Skye), and sentinels (defensive specialists like Killjoy and Sage).
+
+The game revolves around an economy system where players earn and spend credits each round to buy weapons and abilities. 
+Gunplay is heavily dependent on accuracy, especially headshots, which deal significant damage. 
+Popular maps include Bind, Haven, and Ascent, each requiring different strategies. Key tips for improving include maintaining good crosshair placement, playing with the team instead of solo pushing, and managing the economy effectively. 
+Weapons like the Vandal (one-tap headshot), Phantom (better spray control), and Operator (sniper) are commonly used depending on playstyle.
+
+
+Basketball is a fast-paced team sport played between two teams of five players each, with the objective of scoring points by shooting the ball through the opponent’s hoop. 
+The game is typically divided into four quarters. Each player has a specific role: the point guard acts as the playmaker, the shooting guard focuses on scoring, the small forward is versatile, the power forward handles inside play, and the center focuses on rebounds and defense.
+
+Points are scored in three ways: free throws (1 point), field goals (2 points), and three-pointers (3 points). 
+The most popular professional league is the NBA, which features some of the best players in the world, including stars like LeBron James, known for his all-around excellence. 
+Key skills in basketball include dribbling, shooting, passing, and defense. Important rules include avoiding double dribbling, adhering to the 24-second shot clock, and understanding fouls, which can lead to free throws.
